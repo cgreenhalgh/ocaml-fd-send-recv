@@ -21,7 +21,7 @@
 #include <unistd.h> /* needed for _SC_OPEN_MAX */
 #include <stdio.h> /* snprintf */
 #include <sys/ioctl.h>
-#include <sys/statvfs.h>
+/*#include <sys/statvfs.h> not needed?! not present on Android */
 
 #include <caml/mlvalues.h>
 #include <caml/memory.h>
